@@ -1,0 +1,90 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #dbdbdb;
+  font-weight: 700;
+}
+
+.headerwrapper {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(22%, #27292d), color-stop(58%, rgba(39, 41, 45, 0.9)), color-stop(87%, rgba(39, 41, 45, 0.75)), to(rgba(39, 41, 45, 0)));
+  background-image: linear-gradient(180deg, #27292d 22%, rgba(39, 41, 45, 0.9) 58%, rgba(39, 41, 45, 0.75) 87%, rgba(39, 41, 45, 0));
+}
+
+.backgroundheadimage {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/Gear-BG.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headercontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.buttonmain {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border-radius: 20px;
+  background-color: #ff500b;
+  box-shadow: 20px 0 20px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+
+.logoimage {
+  width: 30%;
+  margin-bottom: 20px;
+}
