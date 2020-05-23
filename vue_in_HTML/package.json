@@ -1,0 +1,20 @@
+{
+  "name": "vue_in_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "etherlime compile",
+    "test": "etherlime test",
+    "start": "etherlime ganache -q --networkId=1337",
+    "beg": "etherlime init"
+  },
+  "devDependencies": {
+    "etherlime": "2.3.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "etherlime-lib": "^1.2.3"
+  }
+}

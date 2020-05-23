@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/veronicac/.nvm/versions/node/v8.0.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/veronicac/.nvm/versions/node/v8.0.0/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/veronicac/Desktop/projects/course/Lessons/vue_in_HTML/package.json: Unexpected token } in JSON at position 309
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "vue_in_html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "etherlime compile",
+      "test": "etherlime test",
+      "start": "etherlime ganache -q --networkId=1337",
+      "beg": "etherlime init"
+    },
+    "devDependencies": {
+      "etherlime": "2.3.3",
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
